@@ -1,0 +1,110 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+}
+
+.bg-custom{
+    background-color: #343A40;
+}
+
+.active{
+    color: #1AFFD5;
+}
+
+.nav-link-custom{
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-dark .navbar-nav .active-custom>.nav-link, .navbar-dark .navbar-nav .nav-link.active-custom, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #1AFFD5;
+}
+
+
+
+#acc{
+    background-color: #343A40;
+    color: white;
+}
+.h1-base{
+    font-size: 100px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-family: mono45-headline,monospace;
+    font-weight: 700;
+    font-style: normal;    
+}
+
+.span-h1{
+    font-size: 100px;
+    color: #1AFFD5;
+}
+
+.txt-acc{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+width: 600px;
+}
+
+.button-acc{
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    width: 250px;
+    padding: 20px;
+    background-color: #1AFFD5;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #343A40;
+text-decoration: none;
+
+}
+
+.button-acc2{
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-right: 25%;
+    width: 250px;
+    padding: 18px;
+    background-color: #343A40;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #1AFFD5;
+text-decoration: none;
+border: 1px solid #1AFFD5;
+}
+
+.button-acc2:hover{
+    text-decoration: none;
+    color: #1AFFD5;
+}
+
+.button-acc:hover{
+    text-decoration: none;
+    color: #343A40;
+}
+
+.button-acc-admin{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
