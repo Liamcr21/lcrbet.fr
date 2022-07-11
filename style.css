@@ -120,8 +120,27 @@ align-items: center;
     margin: auto;
     width: 700px;
     height: 200px;
-    border: 10px solid #1AFFD5;
+    border: 5px solid #1AFFD5;
     border-radius: 10px;
 
 }
+
+
+.button-acc3{
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 250px;
+    padding: 18px;
+    background-color: #343A40;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #1AFFD5;
+text-decoration: none;
+border: 1px solid #1AFFD5;
+}
+
 
