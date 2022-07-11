@@ -34,7 +34,7 @@ body{
 .h1-base{
     font-size: 100px;
     color: white;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     font-family: mono45-headline,monospace;
     font-weight: 700;
@@ -108,3 +108,20 @@ justify-content: center;
 align-items: center;
 
 }
+
+
+#acc1{
+    background-color: #343A40;
+    color: white;
+    padding-top: 50px;
+}
+
+.borderacc{
+    margin: auto;
+    width: 700px;
+    height: 200px;
+    border: 10px solid #1AFFD5;
+    border-radius: 10px;
+
+}
+
