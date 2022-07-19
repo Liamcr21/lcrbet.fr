@@ -681,3 +681,76 @@ font-style: normal;
         color: #1AFFD5;
     }
 }
+
+
+.bilanall{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carre1bilan{
+    width: 150px;
+    height: 150px;
+    background-color: #1AFFD5;
+    margin: 3%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+
+.titre-mois{  
+    color: #1AFFD5;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: x-large;
+width: 200px;
+border:3px solid #f3f3f3;
+}
+
+.titre-carre{ 
+    width: 150px;
+height: 5px;
+text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: 3%;
+}
+
+
+.carre2bilan{
+    width: 150px;
+    height: 150px;
+    background-color: #1AFFD5;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+.p-carre{
+    padding: 35px;
+    color: #343A40;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+}
+
+
+.p-carre-modif{
+    padding-top: 38px;
+    color: #343A40;
+    text-align: center;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+}
