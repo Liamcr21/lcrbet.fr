@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*BODY COLOR*/
+  body{
+    background-color: white;
+  }
+
+/*Hero*/
+  .h1-hero{
+    font-size: 80px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: mono45-headline,monospace;
+    font-weight: bold;
+    font-style: normal; 
+    color: #05668D;  
+  }
+
+  .span-hero{
+    color: #FFBE0B;
+  }
+
+  .h2-hero-ps{
+margin: auto;
+margin-top: 1%;
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    color: #05668D;
+  }
+
+
+  /*BTN RS*/
+
+  .btn-discord{
+    background-color: #5c6bbf;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+  .btn-twitter{
+    background-color: #00a8f4;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .h2-ps{
+    margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: erbaum, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  }
+
+
+.admin-btn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   margin-bottom: 5%;
+   margin-top: 5%;
+  }
+
+
+  
+  
+  /*Responsive mobile*/
+
+    
+  @media only screen and (max-width: 600px){
+
+    .h1-hero{
+        font-size: 50px;
+        padding-top: 50px;
+        text-align: center;
+        font-family: mono45-headline,monospace;
+        font-weight: bold;
+        font-style: normal; 
+        color: #05668D;  
+      }
+    
+      .span-hero{
+        color: #FFBE0B;
+      }
+    
+      .h2-hero-ps{
+    margin: auto;
+    margin-top: 1%;
+        font-family: erbaum, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+        text-align: center;
+        width: 300px;
+        color: #05668D;
+      }
+    
+      .btn-discord{
+        background-color: #5c6bbf;
+        border-radius: 30px;
+        height: 50px;
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        margin: 3%;
+      }
+
+  .btn-twitter{
+    background-color: #00a8f4;
+    border-radius: 30px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+  }
+  
+  .h2-ps{
+    margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: erbaum, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  }
+
+
+.admin-btn{
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 5%;
+   margin-top: 5%;
+  }
+  }
+
+
+
+
+
+
+
+
+/*Resultat*/
+.admin-bilan-total{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+  .h1-total{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #FFBE0B;
+    font-family: erbaum, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #05668D;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    padding: 10px;
+  }
+
+  .carre{
+    display: flex;
+    flex-direction: column;
+    background-color: #05668D;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .titre-total{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: erbaum, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .p-total{
+    margin-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-family: erbaum, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFBE0B;
+  }
+
+
+  @media only screen and (max-width: 600px){
+
+    .admin-bilan-total{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+      }
+    
+      .h1-total{
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        color: #FFBE0B;
+        font-family: erbaum, sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: #05668D;
+        width: 250px;
+        border-radius: 15px;
+        margin-bottom: 3%;
+        padding: 10px;
+      }
+    
+      .carre{
+        margin: auto;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        background-color: #05668D;
+        width: 150px;
+        height: 100px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+    
+      .titre-total{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: erbaum, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+      }
+    
+      .p-total{
+        margin-top: 15%;
+        text-align: center;
+        text-decoration: none;
+        font-family: erbaum, sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        color: #FFBE0B;
+      }
+
+
+   }
+
+
+
+
+  
+  
+
+
+  

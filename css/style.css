@@ -1,0 +1,584 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*BODY COLOR*/
+body{
+  background-color: white;
+}
+
+/*Maintenance*/
+
+.maintenance{
+  background-color: white;
+  color: #FFBE0B;
+  padding-top: 7%;
+
+}
+
+
+.loader {
+  display: block;
+  margin: auto;
+  border: 16px solid #05668D; /* Light grey */
+  border-top: 16px solid #FFBE0B; /* Blue */
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.h1-maint{
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: mono45-headline,monospace;
+  font-weight: bold;
+  font-style: normal;   
+}
+
+.img-maint{
+  display: block;
+  margin: auto;
+  width: 10%;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+
+.maintenance{
+  background-color: white;
+  color: #FFBE0B;
+  padding-top: 20%;
+}
+
+  .h1-maint{
+      font-size: 30px;
+      padding-top: 50px;
+      text-align: center;
+      font-family: mono45-headline,monospace;
+      font-weight: bold;
+      font-style: normal;   
+    }
+  
+    .img-maint{
+      display: block;
+      margin: auto;
+      width: 20%;
+      padding-top: 10px;
+    }
+
+    .loader {
+      display: block;
+      margin: auto;
+      border: 16px solid #FFBE0B; /* Light grey */
+      border-top: 16px solid #05668D; /* Blue */
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+    }
+
+}
+
+
+ /* Hero */
+
+.back-hero{
+  margin-top: -10%;
+    min-width: 100%;
+    min-height: 100%;
+   }
+
+
+
+/* ONGLET ACC */
+
+.ongletacc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 310px;
+
+}
+
+.onglet1{
+    float: left;
+    width: 500px;
+    height: 310px;
+    background-color: #05668D;
+    color: #FFBE0B; 
+}
+
+.onglet2{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 310px;
+    border: 1px #05668D;
+    background-color: #FFBE0B;
+    color:  #05668D;
+   
+
+   
+}
+
+.onglet3{
+    float: left;
+    width: 500px;
+    height: 310px;
+    background-color: #05668D;
+    color: #FFBE0B; 
+}
+
+.txt-h1ong{
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: mono45-headline,monospace;
+    font-weight: 700;
+    font-style: normal;    
+}
+
+.txt-ong{
+    text-align: center;
+    padding: 10px;
+    font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.h2-onglet-acc{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: erbaum, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center; 
+  border: 3px solid #FFBE0B;
+  background-color: #05668D;
+  color: #f3f3f3;
+  border-radius: 15px;
+  width: 540px;
+  padding: 10px;
+}
+
+
+.btn-ong{
+    display: block;
+    margin: auto;
+        width: 250px;
+        background-color: #FFBE0B;
+       color: #05668D ;
+        border: 1px solid #FFBE0B;
+        padding: 10px;
+        text-align: center;
+        font-family: erbaum, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+
+    }
+    
+    .btn-ong:hover{
+        text-decoration: none;
+        background-color: #FFBE0B;
+        color: white;
+         border: 1px solid #FFBE0B;
+    }
+
+
+
+.btn-ong2{
+    display: block;
+    margin: auto;
+        width: 250px;
+        background-color: #05668D;
+       color: #FFBE0B;
+        border: 1px solid #05668D;
+        padding: 10px;
+        text-align: center;
+        font-family: erbaum, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+
+    }
+    
+    .btn-ong2:hover{
+        text-decoration: none;
+        background-color: #05668D;
+        color: white;
+         border: 1px solid #05668D;
+    }
+
+    /* Résultats */
+  
+  .admin-bilan{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titre-bilan{
+    margin-top: 3%;
+  }
+
+ .h2-titre-bilan{
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center; 
+ }
+
+ .txt-titre-bilan{
+ 
+  margin: auto;
+ 
+  font-family: erbaum, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+  
+}
+
+
+
+.btn-ong-modif{
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+      width: 300px;
+      background-color: #FFBE0B;
+     color: #05668D ;
+      border: 4px solid #05668D;
+      padding: 10px;
+      text-align: center;
+      font-family: erbaum, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+
+  }
+  
+  .btn-ong-modif:hover{
+      text-decoration: none;
+      background-color: #FFBE0B;
+      color: white;
+       border: 1px solid #FFBE0B;
+  }
+
+
+
+   /* Responsive mobile */
+
+
+  @media only screen and (max-width: 600px) {
+    .back-hero{
+      width: 60%;
+       }
+
+
+       .ongletacc{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 900px;
+    
+    }
+    
+    .onglet1{
+       width: 100%;
+        height: 450px;
+        background-color: #05668D;
+        color: #FFBE0B; 
+    }
+    
+    .onglet2{
+    
+       width: 100%;
+        height: 450px;
+        background-color: #FFBE0B;
+        color: #05668D; 
+        
+    }
+    
+    .onglet3{
+        width: 100%;
+        height: 450px;
+        background-color: #05668D;
+        color: #FFBE0B; 
+    }
+    
+    .txt-h1ong{
+        font-size: 30px;
+        padding-top: 10px;
+        text-align: center;
+        font-family: mono45-headline,monospace;
+        font-weight: 700;
+        font-style: normal;    
+    }
+    
+    .txt-ong{
+        text-align: center;
+        padding: 10px;
+        font-family: erbaum, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    
+    .btn-ong{
+        display: block;
+        margin: auto;
+            width: 250px;
+            background-color: #FFBE0B;
+           color: #05668D;
+            padding: 10px;
+            text-align: center;
+            font-family: erbaum, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        margin-top: 3%;
+    
+        }
+        
+        .btn-ong:hover{
+            text-decoration: none;
+            color: white;
+            
+        }
+    
+    
+    
+    .btn-ong2{
+        display: block;
+        margin: auto;
+            width: 250px;
+            background-color: #05668D;
+           color: #FFBE0B;
+            padding: 10px;
+            text-align: center;
+            font-family: erbaum, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+       margin-top: 2%;
+    
+        }
+        
+        .btn-ong2:hover{
+            text-decoration: none;          
+            color: white;
+        }
+    
+
+.h2-onglet-acc{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-family: erbaum, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center; 
+  border: 3px solid #FFBE0B;
+  background-color: #05668D;
+  color: #f3f3f3;
+  border-radius: 15px;
+  width: 240px;
+  padding: 10px;
+}
+
+.admin-bilan{
+display: flex;
+flex-direction: column;
+}
+
+.titre-bilan{
+margin-top: 3%;
+}
+
+.h2-titre-bilan{
+font-family: erbaum, sans-serif;
+font-weight: bold;
+font-style: normal;
+font-size: 25px;
+text-align: center; 
+}
+
+.txt-titre-bilan{
+
+margin: auto;
+margin-top: 2%;
+font-family: erbaum, sans-serif;
+font-weight: bold;
+font-style: normal;
+font-size: 15px;
+width: 300px;
+text-align: center;
+
+}
+.btn-ong-modif{
+display: block;
+margin: auto;
+margin-top: 6%;
+  width: 300px;
+  background-color: #FFBE0B;
+ color: #05668D ;
+  border:none;
+  padding: 10px;
+  text-align: center;
+  font-family: erbaum, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+text-decoration: none;
+
+}
+
+.btn-ong-modif:hover{
+  text-decoration: none;
+  background-color: #FFBE0B;
+  color: white;
+   border: 1px solid #FFBE0B;
+} 
+  }
+
+
+
+  /*Resultat*/
+.admin-bilan-total{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+  .h1-total{
+    margin: auto;
+    margin-top: 3%;
+    border: 3px solid #FFBE0B;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: erbaum, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #05668D;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    padding: 10px;
+  }
+
+  .carre{
+    display: flex;
+    flex-direction: column;
+    background-color: #05668D;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .titre-total{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: erbaum, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .p-total{
+    margin-top: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-family: erbaum, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFBE0B;
+  }
+
+
+  @media only screen and (max-width: 600px){
+
+    .admin-bilan-total{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+      }
+    
+      .h1-total{
+        margin: auto;
+        margin-top: 4%;
+        border: 2px solid #FFBE0B;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: erbaum, sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: #05668D;
+        width: 250px;
+        border-radius: 15px;
+        margin-bottom: 3%;
+        padding: 10px;
+      }
+    
+      .carre{
+        margin: auto;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        background-color: #05668D;
+        width: 150px;
+        height: 100px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+    
+      .titre-total{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: erbaum, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bold;
+      }
+    
+      .p-total{
+        margin-top: 15%;
+        text-align: center;
+        text-decoration: none;
+        font-family: erbaum, sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        color: #FFBE0B;
+      }
+
+
+   }
