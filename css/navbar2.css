@@ -22,7 +22,7 @@
 }
 
 .navbar-link > .nav-active {
-    color:#FFBE0B;
+    color:white;
     text-decoration: none;
     font-family: erbaum, sans-serif;
     font-weight: bold;
@@ -38,6 +38,7 @@ header{
     height: 15vh;
 }
 .navbar {
+    background-color: #FFBE0B;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -79,6 +80,13 @@ ul {
         overflow-y: scroll;
         overflow-x: hidden;
     }
+
+    .navbar-link > .nav-active{
+        color: #FFBE0B;
+        font-size: 25px;
+    }
+
+    
 
     .main-content h1{
         font-size: 40px;
@@ -205,6 +213,7 @@ ul {
         height: 3px;
         background: #FFBE0B;
         transition:width .4s;
+       
     }
     .navbar-link:hover > a:after {
         width: 100%;
