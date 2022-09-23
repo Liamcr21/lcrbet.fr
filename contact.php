@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - LCRBET - LCRBET.fr</title>
     <link rel="stylesheet" href="/css/navbar-sf.css">
-    <link rel="stylesheet" href="/css/maintenace.css">
+    <link rel="stylesheet" href="/css/maintenance.css">
     <link rel="icon" href="img/logo_white.png"></title>
 </head>
   <header>
