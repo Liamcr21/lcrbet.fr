@@ -4,10 +4,24 @@
     box-sizing: border-box;
   }
   
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #EC6EAD; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ec6eadc3; 
+  }
+  
   /*BODY COLOR*/
   body{
-    background-color: white;
+    background: #3494E6;  
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  
+background: linear-gradient(to right, #EC6EAD, #3494E6); 
   }
+
 
   .h1-algo{
     margin: auto;
@@ -18,8 +32,8 @@
     font-style: normal;
     font-size: 35px;
     text-align: center; 
-    border: 3px solid #FFBE0B;
-    background-color: #05668D;
+    border: 5px solid #EC6EAD;
+    background-color: #3494E6;
     color: #f3f3f3;
     border-radius: 15px;
     width: 540px;
@@ -34,7 +48,7 @@
     font-style: normal;
     font-size: 25px;
     text-align: center; 
-    color: #05668D;
+    color: white;
     width: 540px;
     padding: 10px;
   }
@@ -54,12 +68,12 @@
 
   }
   .img-ny{
-    margin-left: 50%;
+    margin-left: 65%;
     width:25%;
   }
 
   .img-calgary{
-    margin-right: 52%;
+    margin-right: 48%;
     width: 25%;
   }
 
@@ -71,7 +85,7 @@
     font-style: normal;
     font-size: 15px;
     text-align: center; 
-    color: #05668D;
+    color: white;
     width: 540px;
     padding: 10px;
   }

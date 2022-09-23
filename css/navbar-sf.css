@@ -1,19 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 
 /* NAVBAR */
 
-.navbar .lien .btn-contact{
-    width: 100px;
-    background-color: #77EA97;
-    border-radius: 15px;
-}
-
-
-
 .navbar-link {
-    padding: 0 50px;
+    padding: 0 40px;
 }
 .navbar-link > a {
-    color:#05668D;
+    color:#3494E6;
     text-decoration: none;
     font-family: erbaum, sans-serif;
     font-weight: bold;
@@ -22,7 +20,7 @@
 }
 
 .navbar-link > .nav-active {
-    color:white;
+    color:#EC6EAD;
     text-decoration: none;
     font-family: erbaum, sans-serif;
     font-weight: bold;
@@ -38,14 +36,13 @@ header{
     height: 15vh;
 }
 .navbar {
-    background-color: #FFBE0B;
+    background-color: white;
     text-align: center;
     align-content: center;
     align-items: center;
     justify-content: space-between;
     display: flex;
     height: 15vh;
-    color:white;
     transition: all .7s ease-in-out;
 }
 .navbar-links {
@@ -82,7 +79,7 @@ ul {
     }
 
     .navbar-link > .nav-active{
-        color: #FFBE0B;
+        color: #EC6EAD;
         font-size: 25px;
     }
 
@@ -96,7 +93,7 @@ ul {
     .navbar-links {
         justify-content: center;
         background-color: white;
-        color: black;
+       
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -124,7 +121,7 @@ ul {
         transform: translateX(0);
     }
     .navbar-link > a {
-        color: black;
+        color: #3494E6;
         display: block;
         padding: 1rem;
         font-size: 1.6rem;
@@ -154,7 +151,7 @@ ul {
         display: block;
         width: 45px;
         height: 4px;
-        background: #FFBE0B;
+        background: #EC6EAD;
         border-radius: 3px;
         transition: all .4s ease-in-out;
     }
@@ -169,7 +166,7 @@ ul {
         height: 4px;
         position: absolute;
         left: 0;
-        background: #05668D;
+        background: #3494E6;
         border-radius: 3px;
         transition: all .4s ease-in-out;
     }
@@ -211,7 +208,7 @@ ul {
         content: "";
         width: 0;
         height: 3px;
-        background: #FFBE0B;
+        background: #EC6EAD;
         transition:width .4s;
        
     }
