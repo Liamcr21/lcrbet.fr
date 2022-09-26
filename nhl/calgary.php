@@ -1,3 +1,9 @@
+<?php
+
+require_once "../BDD.php";
+use YR72dpi\BDD;
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -49,9 +55,19 @@
         <h2 class="titre-predi">Vainqueur</h2>
         <h2 class="titre-predi">Prolongation</h2>
     </div>
+
+    <?php
+
+        $db = BDD::connect();
+
+        $id = 2;
+        $req = $db->query('SELECT * FROM u801021231_bddnhllcrbet WHERE id = '.$id);
+
+    ?>
+
     <div class="res-general2">
         <div class="res-on">
-            <p class="predi-txt">4,6</p>
+            <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Moyenne_but_total"] ?></p>
         </div>
         <div class="res-on-modif2">
             <p class="predi-txt">4,6</p>
