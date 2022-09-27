@@ -3,12 +3,13 @@ namespace Yr72dpi;
 
 
 
+
 class BDD {
     
     public static function connect($c_directory = null) {
         
 
-        $dsn = 'mysql:dbname=nhl;host=127.0.0.1'; $user = 'root'; $password = '';
+        $dsn = 'mysql:dbname=u801021231_BDDNHLlcrbet;host=localhost'; $user = 'u801021231_lcrbetadminbdd'; $password = 'NHLbdd69lcrbet';
 
 
         
