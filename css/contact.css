@@ -1,0 +1,106 @@
+
+/* Général --------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Scrollbar -------------------------------- */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3fa9f5; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0f2436; 
+  }
+  
+  
+  /* BODY COLOR -------------------------------- */
+  body{
+      background: #eeeeee;   
+  color: black;
+  
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3fa9f5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: erbaum, sans-serif;
+  }
+  
+  input[type=submit] {
+    background-color: #3fa9f5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: erbaum, sans-serif;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3fa9f5;
+  }
+  
+  .container {
+    margin: auto;
+    margin-top: 3%;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #0f2436;
+    color: white;
+    padding: 20px;
+    font-family: erbaum, sans-serif;
+  }
+
+  .h1-contact{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center; 
+    border: 5px solid #0f2436;
+    background-color: #3fa9f5;
+    color: #f3f3f3;
+    border-radius: 15px;
+    width: 540px;
+    padding: 10px;
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .h1-contact{
+      margin: auto;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 25px;
+      text-align: center; 
+      border: 5px solid #EC6EAD;
+      background-color: #3494E6;
+      color: #f3f3f3;
+      border-radius: 15px;
+      width: 340px;
+      padding: 10px;
+    }
+
+     }
