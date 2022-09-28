@@ -129,7 +129,7 @@ use lcrbet\BDD;
     </div>
 
 
-    
+    <script src="/nhl/js/nabar.js"></script>
 
 
     <footer class="footer-distributed">
@@ -141,6 +141,6 @@ use lcrbet\BDD;
 				<p>LCRBET &copy; 2022 - Par <a href="https://liamcariou.fr/" style="text-decoration:none;color: white;">Liamcariou.fr</a></p>
 			</div>
 		</footer>
-    <script src="js/nabar.js"></script>
+ 
 </body>
 </html>
