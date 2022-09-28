@@ -8,11 +8,11 @@
     width: 15px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #EC6EAD; 
+    background: #0f2436; 
     border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #ec6eadc3; 
+    background: #3fa9f5; 
   }
   
   /*BODY COLOR*/
@@ -97,8 +97,106 @@ margin-top: 1%;
   }
 
 
-  
-  
+ 
+
+
+  .admin-algo{
+    margin: auto;
+    margin-top: 4%;
+    width: 900px;
+    height: 450px;
+    padding: 10px;
+    background-color: #0f2436;
+    border-radius: 20px;
+  }
+
+  .top-algo{
+    margin: auto;
+    width: 700px;
+    height: 100px;
+    background-color: #3fa9f5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .res-general{
+    margin: auto;
+    margin-top: 4%;
+    width: 700px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .res-general2{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+  }
+  .res-general3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   }
+ 
+
+
+  .res-on{
+    width: 120px;
+    height: 45px;
+    background-color: #3fa9f5;
+    border-radius: 20px;
+  }
+
+ 
+
+
+
+  .name-match{
+    margin: auto;
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center; 
+    color: white;
+    padding: 10px;
+  }
+
+
+  .predi-txt{
+    margin: auto;
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center; 
+    color: white;
+    padding: 10px;
+  }
+
+  .titre-predi{
+   
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center; 
+    color: black;
+    padding: 10px;
+  }
+
+
+  .img-ny{
+    display: flex;
+    margin: auto;
+    width:15%;
+  }
+
+
   /*Responsive mobile*/
 
     
