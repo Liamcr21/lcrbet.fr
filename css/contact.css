@@ -84,8 +84,7 @@
     padding: 10px;
   }
 
-  .h1-contact{
-    margin: auto;
+  .h2-contact{ 
     margin-top: 2%;
     margin-bottom: 1%;
     font-family: erbaum, sans-serif;
@@ -94,9 +93,6 @@
     font-size: 35px;
     text-align: center; 
     color: red;
-    border-radius: 15px;
-    width: 540px;
-    padding: 10px;
   }
 
   @media only screen and (max-width: 600px){
@@ -118,8 +114,7 @@
       padding: 10px;
     }
 
-    .h1-contact{
-      margin: auto;
+    .h2-contact{
       margin-top: 4%;
       margin-bottom: 4%;
       font-family: erbaum, sans-serif;
@@ -128,8 +123,5 @@
       font-size: 25px;
       text-align: center; 
       color: red;
-      border-radius: 15px;
-      width: 340px;
-      padding: 10px;
-
      }
+      }
