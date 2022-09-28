@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - LCRBET - LCRBET.fr</title>
-    <link rel="stylesheet" href="/css/navbar-acc.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="icon" href="img/logo_white.png"></title>
+    <link rel="stylesheet" href="./css/navbar-acc.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="icon" href="./img/logo_white.png"></title>
 
   <header>
     <nav class="navbar" role="navigation">
         <div class="nav-logo">
-            <a href="index.html"><img class="logo" src="/img/logo_white.png" alt="Logo LCRBET"></a>
+            <a href="./"><img class="logo" src="./img/logo_white.png" alt="Logo LCRBET"></a>
         </div>           
         <ul class="navbar-links">
-            <li class="navbar-link first lien "><a href="ps.html" >Paris sportif</a></li>
-            <li class="navbar-link second lien"><a href="algo.html">Algorithme de prédiction</a></li>
-            <li class="navbar-link fourth lien"><a href="cdm.html">Coupe du monde</a></li>
+            <li class="navbar-link first lien "><a href="ps" >Paris sportif</a></li>
+            <li class="navbar-link second lien"><a href="algo">Algorithme de prédiction</a></li>
+            <li class="navbar-link fourth lien"><a href="cdm">Coupe du monde</a></li>
             <li class="navbar-link fifth lien btn-contact"><a href="contact.php"></i>Contact</a></li>
         </ul>
 
@@ -40,13 +40,13 @@
       <div class="onglet1">
     <p class="titre-onglet">Pronostics</p>
     <p class="txt-onglet">LCRBET propose des pronostics sportifs sur différent sports, principalement le hockey sur glace et le foot, un suivi est également disponible. Les pronostics sont certains aussi issu de l'algorithme.<br> <br>Les pronostics sont 100% gratuit. </p>
-    <a href="ps.html"class="btn-ong">Découvrir les pronostics</a>
+    <a href="ps"class="btn-ong">Découvrir les pronostics</a>
     </div>
     <img src="img/betting.png" alt="" class="img-hero-bett">
       <div class="onglet2">
     <p class="titre-onglet">Algorithme de prédiction</p>
     <p class="txt-onglet">L'Algorithme de prédiction est basé sur la NHL, il propose des stats général sur le match ainsi que des statistiques sur chaque équipes. Totalement gratiut il vous permettra de trouver vos inspiration pour vos paris sportifs NHL.<br><br>Pour le moment 2 équipes sont disponibles.</p>
-    <a href="algo.html"class="btn-ong2"> Découvrir l'Algorithme</a>
+    <a href="algo"class="btn-ong2"> Découvrir l'Algorithme</a>
       </div>
 
     </div>
@@ -73,7 +73,7 @@
         </div> 
       </div>    
       <h2 class="h2-res">La totalités des résultats par mois sont disponibles dans l'onglet "paris sportif"</h2>
-      <a href="ps.html"class="btn-ong-res">Découvrir les résultats</a>
+      <a href="ps"class="btn-ong-res">Découvrir les résultats</a>
     </div>
 
 

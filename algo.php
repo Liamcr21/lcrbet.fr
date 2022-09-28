@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - LCRBET - LCRBET.fr</title>
-    <link rel="stylesheet" href="/css/navbar-sf.css">
-    <link rel="stylesheet" href="/css/maintenance.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="./css/navbar-sf.css">
+    <link rel="stylesheet" href="./css/algo-admin.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="icon" href="img/logo_white.png"></title>
 </head>
   <header>
     <nav class="navbar" role="navigation">
         <div class="nav-logo">
-            <a href="index.html"><img class="logo" src="/img/logo-nav.png" alt="Logo LCRBET"></a>
+            <a href="index"><img class="logo" src="./img/logo-nav.png" alt="Logo LCRBET"></a>
         </div>           
         <ul class="navbar-links">
-            <li class="navbar-link first lien nav-active"><a href="ps.html" class="nav-active">Paris sportif</a></li>
-            <li class="navbar-link second lien"><a href="algo.html">Algorithme de prédiction</a></li>
-            <li class="navbar-link fourth lien"><a href="cdm.html">Coupe du monde</a></li>
+            <li class="navbar-link first lien nav-active"><a href="ps" >Paris sportif</a></li>
+            <li class="navbar-link second lien"><a href="algo" class="nav-active">Algorithme de prédiction</a></li>
+            <li class="navbar-link fourth lien"><a href="cdm">Coupe du monde</a></li>
             <li class="navbar-link fifth lien"><a href="contact.php"></i>Contact</a></li>
         </ul>
 
@@ -29,12 +29,17 @@
 </header>
 <body>
 
-  
-    <section class="maintenance">
-        <div class="loader"></div>
-        <h1 class="h1-maint">Page en maintenance...</h1>
-        <img src="img/logo_white.png" alt="logo" class="img-maint">
-    </section>
+    <h1 class="h1-algo"> Algorithme de prédiction</h1>
+    <h2 class="h2-hero-algo">Choississez une des deux équipes pour découvrir la prédiction de leur prochain matchs</h2>
+    <div class="equipe">
+        <a href="soon-main" class="a-logo"><img src="img/ny.png" alt="" class="img-ny"></a>
+        <a href="nhl/calgary.php" class="a-logo"><img src="img/calgary.png" alt="" class="img-calgary"></a>
+    </div>
+
+    <p>L’algorithme se base sur les derniers résultats des deux équipes qui s’affronte et prend aussi en compte les derniers matchs pour analyser la forme de ces équipes<br><br>
+    L’algorithme est 100% gratuit</p>
+      
+
 
     <footer class="footer-distributed">
         <div class="footer-right">
