@@ -104,33 +104,33 @@ $data = $req->fetch(PDO::FETCH_ASSOC);
     <div class="res-1mt">
         <div class="col-1mt1">
             <h2 class="titre-predi">Nombre de but</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne-total-1ere-MT"] ?></p>
             <h2 class="titre-predi">Nombre de but Calgary</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_1ere_MT_Calgary"] ?></p>
             <h2 class="titre-predi">Nombre de but Colorado</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_1ere_MT_adv"] ?></p>
             <h2 class="titre-predi">Vainqueur</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Vainqueur-1ere-MT"] ?></p>
         </div>
         <div class="col-1mt2">
             <h2 class="titre-predi">Nombre de but</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne-total-2eme-MT"] ?></p>
             <h2 class="titre-predi">Nombre de but Calgary</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_2eme_MT_Calgary"] ?></p>
             <h2 class="titre-predi">Nombre de but Colorado</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_2eme_MT_adv"] ?></p>
             <h2 class="titre-predi">Vainqueur</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Vainqueur-2eme-MT"] ?></p>
         </div>
         <div class="col-1mt3">
             <h2 class="titre-predi">Nombre de but</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne-total-3eme-MT"] ?></p>
             <h2 class="titre-predi">Nombre de but Calgary</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_3eme_MT_Calgary"] ?></p>
             <h2 class="titre-predi">Nombre de but Colorado</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_3eme_MT_adv"] ?></p>
             <h2 class="titre-predi">Vainqueur</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Vainqueur-3eme-MT"] ?></p>
         </div>
     </div>
     </div>
