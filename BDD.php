@@ -1,5 +1,5 @@
 <?php
-namespace Yr72dpi;
+namespace lcrbet;
 
 
 
@@ -9,7 +9,7 @@ class BDD {
     public static function connect($c_directory = null) {
         
 
-        $dsn = 'mysql:dbname=u801021231_BDDNHLlcrbet;host=localhost'; $user = 'u801021231_lcrbetadminbdd'; $password = '123456789';
+        $dsn = 'mysql:dbname=u801021231_BDDNHLlcrbet;host=localhost'; $user = 'u801021231_lcrbetadminbdd'; $password = '';
 
 
         

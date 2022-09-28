@@ -1,7 +1,7 @@
 <?php
 
 require_once "../BDD.php";
-use YR72dpi\BDD;
+use lcrbet\BDD;
 
 ?>
 <!DOCTYPE html>
