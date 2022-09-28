@@ -4,16 +4,17 @@
     box-sizing: border-box;
   }
 
-::-webkit-scrollbar {
-    width: 15px;
+  ::-webkit-scrollbar {
+    width: 12px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #EC6EAD; 
+    background: #3fa9f5; 
     border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #ec6eadc3; 
+    background: #0f2436; 
   }
+  
   
   /*BODY COLOR*/
   body{
@@ -29,9 +30,9 @@
     margin: auto;
     margin-top: 4%;
     width: 900px;
-    height: 900px;
+    height: 1050px;
     padding: 10px;
-    background-color: aqua;
+    background-color: #0f2436;
     border-radius: 20px;
   }
 
@@ -39,7 +40,7 @@
     margin: auto;
     width: 700px;
     height: 100px;
-    background-color: red;
+    background-color: #3fa9f5;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -50,7 +51,7 @@
     margin: auto;
     margin-top: 3%;
     width: 700px;
-    height: 250px;
+    height: 220px;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
@@ -66,22 +67,40 @@
   .res-on{
     width: 100px;
     height: 45px;
-    background-color: red;
-    border-radius: 20px;
+    background-color: #3fa9f5;
+    border-radius: 10px;
+  }
+
+
+
+  .res-on-modif-{
+    margin-right: 15%;
+    width: 100px;
+    height: 45px;
+    background-color: #3fa9f5;
+    border-radius: 10px;
+  }
+
+  .res-on-modif-2{
+    margin-left: 4%;
+    width: 100px;
+    height: 45px;
+    background-color: #3fa9f5;
+    border-radius: 10px;
   }
 
   .res-on-modif{
     width: 200px;
     height: 45px;
-    background-color: red;
-    border-radius: 20px;
+    background-color: #3fa9f5;
+    border-radius: 10px;
   }
 
   .res-on-modif2{
     width: 180px;
     height: 45px;
-    background-color: red;
-    border-radius: 20px;
+    background-color: #3fa9f5;
+    border-radius: 10px;
   }
 
   .res-1mt{
@@ -92,26 +111,6 @@
     justify-content: center;
     justify-content: space-around;
    
-  }
-
-  .res-2mt{
-    margin: auto;
-    margin-top: 3%;
-    width: 700px;
-    height: 100px;
-    background-color: red;
-    border-radius: 20px;
-    
-  }
-
-  .res-3mt{
-    margin: auto;
-    margin-top: 3%;
-    width: 700px;
-    height: 100px;
-    background-color: red;
-    border-radius: 20px;
-    
   }
 
 
@@ -150,8 +149,14 @@
     padding: 10px;
   }
 
+  .titre-gen{
+    display: flex;
+    justify-content: space-around;
+  }
+
   .titre-general{
     margin: auto;
+    margin-top: 2%;
     font-family: erbaum, sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -159,7 +164,7 @@
     text-align: center; 
     color: white;
     padding: 10px;
-    background-color: #3494E6;
+    background-color: #3fa9f5;
     width: 250px;
   }
 
@@ -214,4 +219,202 @@
     text-align: center; 
     color: white;
     width: 150px;
+  }
+
+  @media only screen and (max-width: 600px){
+    .admin-algo{
+      margin: auto;
+      margin-top: 4%;
+      width: 350px;
+      height: 980px;
+      padding: 10px;
+      background-color: #0f2436;
+      border-radius: 20px;
+    }
+  
+    .top-algo{
+      margin: auto;
+      width: 300px;
+      height: 100px;
+      background-color: #3fa9f5;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+  
+    .res-general{
+      margin: auto;
+      margin-top: 3%;
+      width: 300px;
+      height: 250px;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px;
+    }
+  
+    .res-general2{
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+    }
+  
+  
+    .res-on{
+      width: 70px;
+      height: 45px;
+      background-color: #3fa9f5;
+      border-radius: 10px;
+    }
+  
+  
+  
+    .res-on-modif-{
+      margin-right: 15%;
+      width: 70px;
+      height: 45px;
+      background-color: #3fa9f5;
+      border-radius: 10px;
+    }
+  
+    .res-on-modif-2{
+      margin-left: 4%;
+      width: 70px;
+      height: 45px;
+      background-color: #3fa9f5;
+      border-radius: 10px;
+    }
+  
+    .res-on-modif{
+      width: 70px;
+      height: 45px;
+      background-color: #3fa9f5;
+      border-radius: 10px;
+    }
+  
+    .res-on-modif2{
+      width: 70px;
+      height: 45px;
+      background-color: #3fa9f5;
+      border-radius: 10px;
+    }
+  
+    .res-1mt{
+      margin: auto;
+      margin-top: 3%;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+     
+    }
+  
+  
+  
+    .name-match{
+      margin: auto;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 15px;
+      text-align: center; 
+      color: white;
+      padding: 10px;
+    }
+  
+  
+    .predi-txt{
+      margin: auto;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 10px;
+      text-align: center; 
+      color: black;
+      padding: 10px;
+    }
+  
+    .titre-predi{
+      margin: auto;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 12px;
+      text-align: center; 
+      color: black;
+    }
+
+    .titre-predi-top{
+      margin: auto;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 10px;
+      text-align: center; 
+      color: black;
+    }
+  
+    .titre-gen{
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .titre-general{
+      margin: auto;
+      margin-top: 2%;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 10px;
+      text-align: center; 
+      color: white;
+      padding: 10px;
+      background-color: #3fa9f5;
+      border: 1px solid #0f2436;
+      width:100px;
+    }
+  
+  
+  .col-1mt1{
+      width: 90px;
+      height: 470px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+  }
+  
+  .col-1mt2{
+      width: 90px;
+      height: 470px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+      border: 1px solid #0f2436;
+  }
+  
+  .col-1mt3{
+      width: 90px;
+      height: 470px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 10px;
+  }
+  
+  .predi-mt{
+      margin: auto;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 10px;
+      text-align: center; 
+      color: white;
+      padding: 10px;
+      background-color: #3494E6;
+      width: 50px;
+      border-radius: 10px;
+    }
+  
   }
