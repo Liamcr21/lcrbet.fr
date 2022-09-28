@@ -84,6 +84,21 @@
     padding: 10px;
   }
 
+  .h1-contact{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center; 
+    color: red;
+    border-radius: 15px;
+    width: 540px;
+    padding: 10px;
+  }
+
   @media only screen and (max-width: 600px){
 
     .h1-contact{
@@ -102,5 +117,19 @@
       width: 340px;
       padding: 10px;
     }
+
+    .h1-contact{
+      margin: auto;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      font-family: erbaum, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 25px;
+      text-align: center; 
+      color: red;
+      border-radius: 15px;
+      width: 340px;
+      padding: 10px;
 
      }

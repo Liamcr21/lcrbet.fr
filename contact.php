@@ -71,6 +71,7 @@ $headers = 'From:'.$mail . "\r\n" .
 
 
 <h1 class="h1-contact">Contact LCRBET</h1>
+<h1 class="h2-contact">pas encore fonctionnel</h1>
 <div class="container">
 
   <?php
