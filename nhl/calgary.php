@@ -90,7 +90,7 @@ $data = $req->fetch(PDO::FETCH_ASSOC);
             <p class="predi-txt"><?= $data["Moyenne_but_Calgary"] ?></p>
         </div>
         <div class="res-on-modif-2">
-            <p class="predi-txt">4,6</p>
+            <p class="predi-txt"><?= $data["Moyenne_but_adv"] ?></p>
         </div>
     </div>
 
@@ -136,7 +136,7 @@ $data = $req->fetch(PDO::FETCH_ASSOC);
     </div>
 
 
-    
+    <script src="nhl/js/navbar.js"></script>
 
 
     <footer class="footer-distributed">
@@ -148,6 +148,6 @@ $data = $req->fetch(PDO::FETCH_ASSOC);
 				<p>LCRBET &copy; 2022 - Par <a href="https://liamcariou.fr/" style="text-decoration:none;color: white;">Liamcariou.fr</a></p>
 			</div>
 		</footer>
-    <script src="js/nabar.js"></script>
+ 
 </body>
 </html>

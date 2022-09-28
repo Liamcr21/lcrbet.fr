@@ -4,15 +4,15 @@
     box-sizing: border-box;
   }
 
-::-webkit-scrollbar {
-    width: 15px;
+  ::-webkit-scrollbar {
+    width: 12px;
   }
   ::-webkit-scrollbar-thumb {
-    background: #EC6EAD; 
+    background: #3fa9f5; 
     border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #ec6eadc3; 
+    background: #0f2436; 
   }
   
   /*BODY COLOR*/
@@ -108,8 +108,8 @@
       font-style: normal;
       font-size: 25px;
       text-align: center; 
-      border: 5px solid #EC6EAD;
-      background-color: #3494E6;
+      border: 5px solid #0f2436;
+      background-color: #3fa9f5;
       color: #f3f3f3;
       border-radius: 15px;
       width: 340px;
