@@ -18,10 +18,8 @@
   
   /*BODY COLOR*/
   body{
-    background: #3494E6;  
-background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  
-background: linear-gradient(to right, #EC6EAD, #3494E6); 
-color: white;
+    background: #EEEE;   
+color: black;
   }
 
 
@@ -36,8 +34,8 @@ color: white;
   .loader {
     display: block;
     margin: auto;
-    border: 16px solid #3494E6; 
-    border-top: 16px solid #EC6EAD; 
+    border: 16px solid #0f2436; 
+    border-top: 16px solid #3fa9f5; 
     border-radius: 50%;
     width: 220px;
     height: 220px;
@@ -53,7 +51,7 @@ color: white;
     font-size: 50px;
     padding-top: 50px;
     text-align: center;
-    font-family: mono45-headline,monospace;
+    font-family: erbaum, sans-serif;
     font-weight: bold;
     font-style: normal;   
   }
@@ -76,7 +74,7 @@ color: white;
         font-size: 30px;
         padding-top: 50px;
         text-align: center;
-        font-family: mono45-headline,monospace;
+        font-family: erbaum, sans-serif;
         font-weight: bold;
         font-style: normal;   
       }
@@ -91,8 +89,8 @@ color: white;
       .loader {
         display: block;
         margin: auto;
-        border: 16px solid #3494E6; 
-        border-top: 16px solid #EC6EAD; 
+        border: 16px solid #0f2436; 
+        border-top: 16px solid #3fa9f5; 
         border-radius: 50%;
         width: 120px;
         height: 120px;

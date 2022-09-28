@@ -26,7 +26,6 @@ use YR72dpi\BDD;
             <li class="navbar-link first lien nav-active"><a href="../ps.html" >Paris sportif</a></li>
             <li class="navbar-link second lien"><a href="../algo.html" class="nav-active">Algorithme de prédiction</a></li>
             <li class="navbar-link fourth lien"><a href="../cdm.html">Coupe du monde</a></li>
-            <li class="navbar-link fourth lien"><a href="../casino.html">Casino</a></li>
             <li class="navbar-link fifth lien"><a href="../contact.php"></i>Contact</a></li>
         </ul>
 
@@ -131,6 +130,15 @@ use YR72dpi\BDD;
     
 
 
+    <footer class="footer-distributed">
+			<div class="footer-right">
+				<a href="https://discord.gg/7zHXJ4wX"><img src="img/discord.png" class="footer-img"></a>
+        <a href="https://twitter.com/lcrbet"> <img src="img/twitter.png" class="footer-img"></a>
+			</div>
+			<div class="footer-left">
+				<p>LCRBET &copy; 2022 - Par <a href="https://liamcariou.fr/" style="text-decoration:none;color: white;">Liamcariou.fr</a></p>
+			</div>
+		</footer>
     <script src="../js/navbar.js"></script>
 </body>
 </html>
