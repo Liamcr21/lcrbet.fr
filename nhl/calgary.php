@@ -129,7 +129,7 @@ use lcrbet\BDD;
     </div>
 
 
-    <script src="/nhl/js/nabar.js"></script>
+    <script src="nhl/js/navbar.js"></script>
 
 
     <footer class="footer-distributed">
