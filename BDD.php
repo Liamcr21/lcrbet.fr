@@ -6,10 +6,13 @@ namespace lcrbet;
 
 class BDD {
     
-    public static function connect($c_directory = null) {
+    public static function connect(string $cd = null) {
         
+        $env = json_decode(file_get_contents($cd."./env.json"));
 
-        $dsn = 'mysql:dbname=lcrbet;host=localhost'; $user = 'root'; $password = '';
+        $dsn = 'mysql:dbname='.$env->db->name.';host='.$env->db->host;
+        $user = $env->db->username;
+        $password = $env->db->password;
 
 
         
