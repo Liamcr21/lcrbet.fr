@@ -61,7 +61,7 @@ use YR72dpi\BDD;
         $db = BDD::connect();
 
         $id = 2;
-        $req = $db->query('SELECT * FROM u801021231_bddnhllcrbet WHERE id = '.$id);
+        $req = $db->query('SELECT * FROM calgary_flames WHERE id = '.$id);
 
     ?>
 
@@ -70,10 +70,10 @@ use YR72dpi\BDD;
             <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Moyenne_but_total"] ?></p>
         </div>
         <div class="res-on-modif2">
-            <p class="predi-txt">4,6</p>
+            <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Vainqueur"] ?></p>
         </div>
         <div class="res-on">
-            <p class="predi-txt">4,6</p>
+            <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Prolongation"] ?></p>
         </div>
     </div>
     <div class="res-general2">
@@ -82,7 +82,7 @@ use YR72dpi\BDD;
     </div>
     <div class="res-general2">
         <div class="res-on-modif">
-            <p class="predi-txt">4,6</p>
+            <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Moyenne_but_Calgary"] ?></p>
         </div>
         <div class="res-on-modif">
             <p class="predi-txt">4,6</p>
