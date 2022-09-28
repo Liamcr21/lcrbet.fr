@@ -83,7 +83,7 @@ use lcrbet\BDD;
             <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Moyenne_but_Calgary"] ?></p>
         </div>
         <div class="res-on-modif-2">
-            <p class="predi-txt">4,6</p>
+            <p class="predi-txt"><?= $req->fetch(PDO::FETCH_ASSOC)["Moyenne_but_adv"] ?></p>
         </div>
     </div>
 
