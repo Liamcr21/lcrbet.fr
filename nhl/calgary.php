@@ -141,6 +141,6 @@ use YR72dpi\BDD;
 				<p>LCRBET &copy; 2022 - Par <a href="https://liamcariou.fr/" style="text-decoration:none;color: white;">Liamcariou.fr</a></p>
 			</div>
 		</footer>
-    <script src="../js/navbar.js"></script>
+    <script src="js/nabar.js"></script>
 </body>
 </html>
