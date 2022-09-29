@@ -3,12 +3,13 @@
 require_once "../BDD.php";
 use lcrbet\BDD;
 
-$db = BDD::connect();
+$db = BDD::connect("../");
 
-$id = htmlspecialchars($_GET['id']);
-$req = $db->query('SELECT * FROM calgary_flames WHERE id = '.$id);
-$data = $req->fetch(PDO::FETCH_ASSOC);
-
+if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_GET['id'])) {
+    $id = htmlspecialchars($_GET['id']);
+    $req = $db->query('SELECT * FROM calgary_flames WHERE id = '.$id);
+    
+    if($data = $req->fetch(PDO::FETCH_ASSOC)) {
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -151,3 +152,13 @@ $data = $req->fetch(PDO::FETCH_ASSOC);
  
 </body>
 </html>
+<?php
+    } else {
+        echo "Cette article n'existe pas.";
+    }
+} else {
+    echo "erreur";
+    // Si tu veux rediriger dé commentes la ligne en dessous
+    //header("Location: ../");
+}
+?>
