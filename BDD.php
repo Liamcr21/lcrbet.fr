@@ -7,12 +7,13 @@ namespace lcrbet;
 class BDD {
     
     public static function connect(string $cd = null) {
-        
-        $env = json_decode(file_get_contents($cd."./env.json"));
-
-        $dsn = 'mysql:dbname='.$env->db->name.';host='.$env->db->host;
-        $user = $env->db->username;
-        $password = $env->db->password;
+=======
+<<<<<<< HEAD
+        $dsn = 'mysql:dbname=lcrbet;host=localhost'; $user = 'root'; $password = '';
+=======
+        $dsn = 'mysql:dbname=u801021231_BDDNHLlcrbet;host=localhost'; $user = 'u801021231_lcrbetadminbdd'; $password = 'mdp';
+>>>>>>> 68ef818fdf03dc13c6b0213015a3aebf69b8aed4
+>>>>>>> parent of 27e0b6b (lcr)
 
 
         
