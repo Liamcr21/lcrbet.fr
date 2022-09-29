@@ -22,7 +22,7 @@
             <li class="navbar-link first lien nav-active"><a href="ps" class="nav-active">Paris sportif</a></li>
             <li class="navbar-link second lien"><a href="algo">Algorithme de prédiction</a></li>
             <li class="navbar-link fourth lien"><a href="cdm">Coupe du monde</a></li>
-            <li class="navbar-link fifth lien"><a href="contact.php"></i>Contact</a></li>
+            <li class="navbar-link fifth lien"><a href="contact"></i>Contact</a></li>
         </ul>
 
         <button class="burger">

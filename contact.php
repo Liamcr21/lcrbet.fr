@@ -43,17 +43,11 @@ $headers = 'From:'.$mail . "\r\n" .
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - LCRBET - LCRBET.fr</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="./css/navbar-sf.css">
-    <link rel="stylesheet" href="./css/maintenance.css">
-    <link rel="stylesheet" href="./css/footer.css">
-=======
+    <title>Contact - LCRBET - LCRBET.fr</title>
     <link rel="stylesheet" href="/css/navbar-sf.css">
     <link rel="stylesheet" href="/css/maintenance.css">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/footer.css">
->>>>>>> 68ef818fdf03dc13c6b0213015a3aebf69b8aed4
     <link rel="icon" href="img/logo_white.png"></title>
 </head>
   <header>
@@ -65,7 +59,7 @@ $headers = 'From:'.$mail . "\r\n" .
             <li class="navbar-link first lien nav-active"><a href="ps" >Paris sportif</a></li>
             <li class="navbar-link second lien"><a href="algo">Algorithme de prédiction</a></li>
             <li class="navbar-link fourth lien"><a href="cdm">Coupe du monde</a></li>
-            <li class="navbar-link fifth lien"><a href="contact.php" class="nav-active"></i>Contact</a></li>
+            <li class="navbar-link fifth lien"><a href="contact" class="nav-active"></i>Contact</a></li>
         </ul>
 
         <button class="burger">
