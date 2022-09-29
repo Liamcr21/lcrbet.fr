@@ -33,7 +33,7 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
             <li class="navbar-link first lien nav-active"><a href="../ps" >Paris sportif</a></li>
             <li class="navbar-link second lien"><a href="../algo" class="nav-active">Algorithme de prédiction</a></li>
             <li class="navbar-link fourth lien"><a href="../cdm">Coupe du monde</a></li>
-            <li class="navbar-link fifth lien"><a href="../contact.php"></i>Contact</a></li>
+            <li class="navbar-link fifth lien"><a href="../contact"></i>Contact</a></li>
         </ul>
 
         <button class="burger">
@@ -152,13 +152,3 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
  
 </body>
 </html>
-<?php
-    } else {
-        echo "Cette article n'existe pas.";
-    }
-} else {
-    echo "erreur";
-    // Si tu veux rediriger dé commentes la ligne en dessous
-    //header("Location: ../");
-}
-?>
