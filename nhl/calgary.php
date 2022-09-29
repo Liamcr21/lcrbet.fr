@@ -152,13 +152,3 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
  
 </body>
 </html>
-<?php
-    } else {
-        echo "Cette article n'existe pas.";
-    }
-} else {
-    echo "erreur";
-    // Si tu veux rediriger dé commentes la ligne en dessous
-    //header("Location: ../");
-}
-?>
