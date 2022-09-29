@@ -6,10 +6,6 @@ namespace lcrbet;
 
 class BDD {
     
-<<<<<<< HEAD
-    public static function connect(string $cd = null) {
-        $dsn = 'mysql:dbname=lcrbet;host=localhost'; $user = 'root'; $password = '';
-=======
     public static function connect($c_directory = null) {
         
 
@@ -17,7 +13,6 @@ class BDD {
 
 
         
->>>>>>> d8cbf4a8b61f2447105848bfd07e81069109fe33
 
          try {
              $dbh = new \PDO($dsn, $user, $password);
