@@ -9,10 +9,11 @@ class BDD {
     public static function connect($c_directory = null) {
         
 
-        //$dsn = 'mysql:calgary-flames=;host=localhost'; $user = 'u801021231_lcrbetadminbdd'; $password = 'NHLbdd69lcrbet';
-        $dsn = 'mysql:dbname=lcrbet;host=localhost';
-        $user = 'root';
-        $password = '';
+       $dsn = 'mysql:dbname=u801021231_BDDNHLlcrbet;host=localhost'; $user = 'u801021231_lcrbetadminbdd'; $password = 'NHLbdd69lcrbet';
+         //$dsn = 'mysql:dbname=lcrbet;host=localhost'; //
+        // $user = 'root'; //
+       //  $password = ''; //
+         
 
         
 

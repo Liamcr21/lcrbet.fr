@@ -7,7 +7,7 @@ $db = BDD::connect("../");
 
 if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_GET['id'])) {
     $id = htmlspecialchars($_GET['id']);
-    $req = $db->query('SELECT * FROM calgary_flames WHERE id = '.$id);
+    $req = $db->query('SELECT * FROM NHL WHERE id = '.$id);
     
     if($data = $req->fetch(PDO::FETCH_ASSOC)) {
 ?>
@@ -52,10 +52,10 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
         <img src="img-nhl/calgary.png" alt="" class="img-ny">
 
 
-        <h2 class="name-match"><?= $data["/"] ?> <br> timer</h2>
+        <h2 class="name-match"><?= $data["Game"] ?> <br> timer</h2>
 
 
-        <img src="img-nhl/calgary.png" alt="" class="img-ny">
+        <img src="img-nhl/colorado.png" alt="" class="img-ny">
     </div>
     <h2 class="titre-general">Prédiction Général</h2>
     <div class="res-general">
@@ -84,7 +84,7 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
     </div>
     <div class="res-general2">
         <h2 class="titre-predi">Nombre de but Calgary</h2>
-        <h2 class="titre-predi">Nombre de but Colorado</h2>
+        <h2 class="titre-predi">Nombre de but <?= $data["Name_adv"] ?></h2>
     </div>
     <div class="res-general2">
         <div class="res-on-modif-">
@@ -105,33 +105,33 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
     <div class="res-1mt">
         <div class="col-1mt1">
             <h2 class="titre-predi">Nombre de but</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne-total-1ere-MT"] ?></p>
             <h2 class="titre-predi">Nombre de but Calgary</h2>
-            <p class="predi-mt">4,6</p>
-            <h2 class="titre-predi">Nombre de but Colorado</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_1ere_MT_Calgary"] ?></p>
+            <h2 class="titre-predi">Nombre de but <?= $data["Name_adv"] ?></h2>
+            <p class="predi-mt"><?= $data["Moyenne_but_1ere_MT_adv"] ?></p>
             <h2 class="titre-predi">Vainqueur</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Vainqueur-1ere-MT"] ?></p>
         </div>
         <div class="col-1mt2">
             <h2 class="titre-predi">Nombre de but</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne-total-2eme-MT"] ?></p>
             <h2 class="titre-predi">Nombre de but Calgary</h2>
-            <p class="predi-mt">4,6</p>
-            <h2 class="titre-predi">Nombre de but Colorado</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_2eme_MT_Calgary"] ?></p>
+            <h2 class="titre-predi">Nombre de but <?= $data["Name_adv"] ?></h2>
+            <p class="predi-mt"><?= $data["Moyenne_but_2eme_MT_adv"] ?></p>
             <h2 class="titre-predi">Vainqueur</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Vainqueur-2eme-MT"] ?></p>
         </div>
         <div class="col-1mt3">
             <h2 class="titre-predi">Nombre de but</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne-total-3eme-MT"] ?></p>
             <h2 class="titre-predi">Nombre de but Calgary</h2>
-            <p class="predi-mt">4,6</p>
-            <h2 class="titre-predi">Nombre de but Colorado</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Moyenne_but_3eme_MT_Calgary"] ?></p>
+            <h2 class="titre-predi">Nombre de but <?= $data["Name_adv"] ?></h2>
+            <p class="predi-mt"><?= $data["Moyenne_but_3eme_MT_adv"] ?></p>
             <h2 class="titre-predi">Vainqueur</h2>
-            <p class="predi-mt">4,6</p>
+            <p class="predi-mt"><?= $data["Vainqueur-3eme-MT"] ?></p>
         </div>
     </div>
     </div>
