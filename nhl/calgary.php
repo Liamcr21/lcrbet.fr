@@ -1,6 +1,6 @@
 <?php
 
-require_once "../BDD";
+require_once "../BDD.php";
 use lcrbet\BDD;
 
 $db = BDD::connect("../");
@@ -152,3 +152,4 @@ if (isset($_GET['id']) && !empty($_GET['id']) && preg_match("/^[0-9]{1,}$/i", $_
  
 </body>
 </html>
+<?php }}
