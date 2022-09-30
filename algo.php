@@ -33,7 +33,7 @@
     <h2 class="h2-hero-algo">Choississez une des deux équipes pour découvrir la prédiction de leur prochain matchs</h2>
     <div class="equipe">
         <a href="soon-main" class="a-logo"><img src="img/ny.png" alt="" class="img-ny"></a>
-        <a href="nhl/calgary?id=2" class="a-logo"><img src="img/calgary.png" alt="" class="img-calgary"></a>
+        <a href="nhl/calgary?id=1" class="a-logo"><img src="img/calgary.png" alt="" class="img-calgary"></a>
     </div>
 
     <p>L’algorithme se base sur les derniers résultats des deux équipes qui s’affronte et prend aussi en compte les derniers matchs pour analyser la forme de ces équipes<br><br>
