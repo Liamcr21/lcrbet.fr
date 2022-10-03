@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - LCRBET - LCRBET.fr</title>
-    <link rel="stylesheet" href="./css/navbar-sf.css">
-    <link rel="stylesheet" href="./css/algo-admin.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="icon" href="img/logo_white.png"></title>
+    <title>Calgary Flames - Algorithme de prédiction - LCREBT - LCRBET.fr</title>
+    <link rel="stylesheet" href="../css/navbar-sf.css">
+    <link rel="stylesheet" href="./css-nhl/admin-algo.css">
+    <link rel="stylesheet" href="./css-nhl/algo-team.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" href="../img/logo_white.png"></title>
 </head>
   <header>
     <nav class="navbar" role="navigation">
         <div class="nav-logo">
-            <a href="./"><img class="logo" src="./img/logo-nav.png" alt="Logo LCRBET"></a>
+            <a href="../"><img class="logo" src="../img/logo-nav.png" alt="Logo LCRBET"></a>
         </div>           
         <ul class="navbar-links">
-            <li class="navbar-link first lien nav-active"><a href="ps" >Paris sportif</a></li>
-            <li class="navbar-link second lien"><a href="algo" class="nav-active">Algorithme de prédiction</a></li>
-            <li class="navbar-link fourth lien"><a href="cdm">Coupe du monde</a></li>
-            <li class="navbar-link fifth lien"><a href="contact"></i>Contact</a></li>
+            <li class="navbar-link first lien nav-active"><a href="../ps" >Paris sportif</a></li>
+            <li class="navbar-link second lien"><a href="../algo" class="nav-active">Algorithme de prédiction</a></li>
+            <li class="navbar-link fourth lien"><a href="../cdm">Coupe du monde</a></li>
+            <li class="navbar-link fifth lien"><a href="../contact"></i>Contact</a></li>
         </ul>
 
         <button class="burger">
