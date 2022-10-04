@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - LCRBET - LCRBET.fr</title>
-    <link rel="stylesheet" href="./css/navbar-acc.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/footer.css">
-
     <link rel="stylesheet" href="./sources/style.css">
+    <link rel="stylesheet" href="./sources/navbar-fond.css">
     <link rel="icon" href="./img/logo_white.png"></title>
 
   <header>

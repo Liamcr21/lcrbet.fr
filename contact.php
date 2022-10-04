@@ -44,10 +44,8 @@ $headers = 'From:'.$mail . "\r\n" .
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - LCRBET - LCRBET.fr</title>
-    <link rel="stylesheet" href="/css/navbar-sf.css">
-    <link rel="stylesheet" href="/css/maintenance.css">
-    <link rel="stylesheet" href="/css/contact.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="./sources/style.css">
+    <link rel="stylesheet" href="./sources/navbar-sansfond.css">
     <link rel="icon" href="img/logo_white.png"></title>
 </head>
   <header>

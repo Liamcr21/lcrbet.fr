@@ -25,7 +25,7 @@
   /* BODY COLOR -------------------------------- */
   body{
       background: #eeeeee;   
-  color: black;
+color: #fff;
   
   }
 
@@ -928,12 +928,7 @@ width: 40%;
 
 
 
- 
-  /*BODY COLOR*/
-  body{
-    background: #EEEE;   
-color: black;
-  }
+
 
 
 
@@ -1106,13 +1101,6 @@ color: black;
   }
 
 
-
-  /* BODY COLOR -------------------------------- */
-  body{
-    background: #eeeeee;   
-color: black;
-
-}
 
 
 input[type=text], select, textarea {
