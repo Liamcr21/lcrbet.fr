@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/navbar-acc.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="./sources/style.css">
     <link rel="icon" href="./img/logo_white.png"></title>
 
   <header>
@@ -16,10 +18,10 @@
             <a href="./"><img class="logo" src="./img/logo_white.png" alt="Logo LCRBET"></a>
         </div>           
         <ul class="navbar-links">
-            <li class="navbar-link first lien "><a href="ps" >Paris sportif</a></li>
-            <li class="navbar-link second lien"><a href="algo">Algorithme de prédiction</a></li>
-            <li class="navbar-link fourth lien"><a href="cdm">Coupe du monde</a></li>
-            <li class="navbar-link fifth lien btn-contact"><a href="contact"></i>Contact</a></li>
+        <li class="navbar-link first lien nav-active"><a href="paris-sportif" class="nav-active">Paris sportif</a></li>
+            <li class="navbar-link second lien"><a href="algorithme-de-prediction">Algorithme de prédiction</a></li>
+            <li class="navbar-link fourth lien"><a href="coupe-du-monde">Coupe du monde</a></li>
+            <li class="navbar-link fifth lien"><a href="contact"></i>Contact</a></li>
         </ul>
 
         <button class="burger">
