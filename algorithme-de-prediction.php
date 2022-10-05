@@ -31,7 +31,7 @@
     <h1 class="h1-algo"> Algorithme de prédiction</h1>
     <h2 class="h2-hero-algo">Choississez votre championnats : </h2>
     <div class="equipe">
-        <a href="./champ/nhl.php?id=2" class="a-logo"><img src="img/logo-nhl.png" alt="" class="img-ny"></a>
+        <a href="champ/nhl.php?id=2" class="a-logo"><img src="img/logo-nhl.png" alt="" class="img-ny"></a>
     </div>
 
     <p>L’algorithme se base sur les derniers résultats des deux équipes qui s’affronte et prend aussi en compte les derniers matchs pour analyser la forme de ces équipes<br><br>
