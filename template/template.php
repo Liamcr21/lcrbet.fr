@@ -14,7 +14,8 @@ require_once("head.php");
         <?php require_once("footer.php"); ?>
 
    
-<script src="/js/navbar.js"></script>
+<script src="js/navbar.js"></script>
+<script src="../js/navbar.js"></script>
 
 </body>
 </html>
