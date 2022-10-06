@@ -42,7 +42,7 @@ header{
     height: 15vh;
 }
 .navbar {
-    background-color: white;
+    background-color: #0f2436;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ ul {
 
     .navbar-links {
         justify-content: center;
-        background-color: white;
+        background-color:#0f2436;
         color: #3fa9f5;
         display: flex;
         flex-direction: column;
