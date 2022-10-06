@@ -95,7 +95,7 @@ ul {
     .navbar-links {
         justify-content: center;
         background-color:#0f2436;
-        color: #3fa9f5;
+        color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -123,7 +123,7 @@ ul {
         transform: translateX(0);
     }
     .navbar-link > a {
-        color: #0f2436;
+        color: white;
         display: block;
         padding: 1rem;
         font-size: 1.8rem;
