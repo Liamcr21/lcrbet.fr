@@ -1,12 +1,12 @@
 <?php
 
-require_once "../BDD.php";
+require_once "../bdd.php";
 use lcrbet\BDD;
 
 $db = BDD::connect();
 
 $id = htmlspecialchars($_GET['id']);
-$req = $db->query('SELECT * FROM calgary_flames WHERE id = '.$id);
+$req = $db->query('SELECT * FROM NHL WHERE id = '.$id);
 $data = $req->fetch(PDO::FETCH_ASSOC);
 
 ?>
@@ -17,8 +17,9 @@ $data = $req->fetch(PDO::FETCH_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calgary Flames - Algorithme de prédiction - LCREBT - LCRBET.fr</title>
-    <link rel="stylesheet" href="../css/navbar-sf.css">
-    <link rel="stylesheet" href="league/league.css">
+    <link rel="stylesheet" href="../sources/navbar-fond.css">
+    <link rel="stylesheet" href="../sources/league.css">
+    <link rel="stylesheet" href="../sources/style.css">
     <link rel="icon" href="../img/logo_white.png"></title>
 </head>
   <header>
