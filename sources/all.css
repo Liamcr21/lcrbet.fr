@@ -12,11 +12,13 @@
 
   ::-webkit-scrollbar {
     width: 12px;
+    
   }
   ::-webkit-scrollbar-thumb {
-    background: #3fa9f5; 
+    background: red; 
     border-radius: 10px;
   }
+  
   ::-webkit-scrollbar-thumb:hover {
     background: #0f2436; 
   }
@@ -24,8 +26,9 @@
 
   /* BODY COLOR -------------------------------- */
   body{
-      background: #eeeeee;   
-color: #fff;
+    background:linear-gradient(45deg, rgba(1,9,13,1) 0%, rgba(1,32,62,1) 75%);
+    background-attachment: fixed;
+    color: #fff;
   
   }
 
@@ -37,17 +40,17 @@ color: #fff;
       min-height: 100%;
      }
   
-   /* Onglet acc------------------------------------------------ */
 
 
-     /* Algo acc------------------------------------------------ */
 
-       /* Pronos acc------------------------------------------------ 
-       * ! ggggggggggggggg * 
+    
+       /* algo------------------------------------------------ 
        
        */
+      
 
-
+      
+      
 
 
 
