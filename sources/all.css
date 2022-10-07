@@ -1,14 +1,13 @@
-
-/* Général --------------------------------*/
-
+  /* TODO Général*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  /* Scrollbar -------------------------------- */
 
+
+   /* TODO Scrollbar*/
 
   ::-webkit-scrollbar {
     width: 12px;
@@ -24,13 +23,15 @@
   }
 
 
-  /* BODY COLOR -------------------------------- */
+    /* TODO Body*/
+
   body{
     background:linear-gradient(45deg, rgba(1,9,13,1) 0%, rgba(1,32,62,1) 75%);
     background-attachment: fixed;
     color: #fff;
   
   }
+
 
   /* TODO ACCUEIL*/
 
@@ -41,11 +42,26 @@
      }
   
 
-
-
     
-       /* TODO Algorithme */
+/* TODO Algorithme */
      
+
+.titre-algo-principal{
+  margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: erbaum, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    border: 5px solid white;
+    background-color: #3fa9f5;
+    color: #f3f3f3;
+    border-radius: 15px;
+    width: 540px;
+    padding: 10px;
+}
       
 
       

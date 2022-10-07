@@ -1,4 +1,7 @@
 <?php ob_start(); ?>
+
+
+
 <section class="back-algo">
 <h1 class="titre-algo-principal"> Algorithme de prédiction</h1>
     <p class="sous-titre-algo">Choississez votre championnat</p>
