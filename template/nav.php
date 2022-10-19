@@ -41,8 +41,8 @@
          <span class="links_name">Contact</span>
        </a>
      </li>
-     <a href="https://discord.gg/EJszXhwTxF"> <i class='bx bxl-discord bx-flip-horizontal bx-tada' ></i></a>
-     <a href="https://twitter.com/lcrbet"> <i class='bx bxl-twitter bx-tada bx-flip-horizontal' ></i></a>
+     <a href="https://discord.gg/EJszXhwTxF"> <i class='bx bxl-discord bx-tada' style='color:#738adb' ></i></a>
+     <a href="https://twitter.com/lcrbet"> <i class='bx bxl-twitter bx-tada' style='color:#00acee'  ></i></a>
     
     </ul>
   </div>
