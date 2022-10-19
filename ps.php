@@ -4,6 +4,8 @@
 <?php ob_start(); ?>
 
 
+
+<section class="home-section">
 <div class="ps-admin">
       <h3 class=titre>Paris sportifs</h3>
       <div class="ps">    
@@ -20,6 +22,14 @@
 </div>
 </div>
 </div>
+
+
+
+
+
+
+
+  </section>
 
 
 <?php $content = ob_get_clean(); require_once("./template/template.php");

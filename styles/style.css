@@ -223,6 +223,7 @@
   background: none;
 }
 .home-section{
+padding-top: 5%;
   position: relative;
   background: #E4E9F7;
   min-height: 100vh;
@@ -243,11 +244,6 @@
   font-weight: 500;
   margin: 18px
 }
-@media (max-width: 420px) {
-  .sidebar li .tooltip{
-    display: none;
-  }
-}
 
 
 .img-nav{
@@ -255,7 +251,11 @@
 }
 
 .titre{
+    margin: auto;
     text-align: center;
+  
+    color: black;
+    font-size: x-large;
 }
 
 .sous-titre{
@@ -263,12 +263,19 @@
 }
 
 .txt{
+    margin: auto;
     text-align: center;
+    width: 80%;
 }
 
 
 .ps-admin{
-    margin-top: 5%;
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+   
+    border: 2px solid black;
+
 }
 .ps{
     margin-top: 3%;
@@ -282,7 +289,11 @@
 }
 
 .algo-admin{
-    margin-top: 5%;
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+   
+    border: 2px solid black;
 }
 .algo{
     margin-top: 2%;

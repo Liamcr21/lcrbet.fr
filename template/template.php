@@ -5,7 +5,7 @@
 require_once("head.php");
 ?>
 
-<body <?= $idbody ?> data-scroll-container>
+<body data-scroll-container>
 
         <?php require_once("nav.php"); ?>
 
