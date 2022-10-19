@@ -4,36 +4,7 @@
 <?php ob_start(); ?>
 
 
-<body>
-
-<section class="home-section">
-      <h1 class=titre>LCRBET</h1>
-      <h2 class=sous-titre>Algorithme de prédiction et paris sportif</h2>
-      <p class=txt>LCRBET vous propose un algorithme de prédiction spécialisé sur la saison NHL 2022/2023. D'autres championnats seront présent a l'avenir.</p>
-      <p class=txt>Nous vous proposons aussi des paris sportifs multi-sport sur discord et twitter. Nous vous invitons donc a rejoindre ces deux plateformes pour suivre les paris sportifs et 
-        être au courant des actualitès de LCRBET
-      </p>
-
-
-
-      <div class="algo-admin">
-      <h3 class=titre>Algorithme de prédiction</h3>
-      <p class=txt>Stastitiques sur la saison 2022/2023 pour chaque matchs ainsi que le classement buteur pour vous aidez dans vos pronostics </p>
-      <p class="txt">Choississez votre championnat</p>
-
-      <div class="algo">    
-    <div class="col-acc">
-    <h3 class=sous-titre>NHL</h3>
-<a href="nhl.php"><img src="img/nhl/logo-nhl.png" alt="" class=img-col></a>
-</div>   
-  
-</div>
-</div>
-
-
-
-
-      <div class="ps-admin">
+<div class="ps-admin">
       <h3 class=titre>Paris sportifs</h3>
       <div class="ps">    
     <div class="col-acc">
@@ -49,19 +20,6 @@
 </div>
 </div>
 </div>
-
-
-
-
-
-
-
-  </section>
-
-
-
-</body>
-</html>
 
 
 <?php $content = ob_get_clean(); require_once("./template/template.php");
