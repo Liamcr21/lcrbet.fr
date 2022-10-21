@@ -23,7 +23,7 @@
 
       <div class="algo">    
     <div class="col-acc">
-<a href="nhl.php"><img src="img/nhl/logo-nhl.png" alt="" class=img-col></a>
+<a href="nhl.php"><img src="img/nhl/logo-nhl.png" alt="" class=img-col-acc></a>
 </div>   
   
 </div>
