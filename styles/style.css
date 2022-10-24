@@ -276,6 +276,32 @@
     text-align: center;
 }
 
+.sous-titre-algo{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+  width: 300px;
+  color: white;
+  background-color: #11101D;
+  font-size: 35px;
+  text-align: center;
+}
+.sous-titre-algo-top{
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+.sous-titre-in{
+  margin-top: 2%;
+  color: black;
+  font-size: 30px;
+}
+
+
 .txt{
     margin: auto;
     text-align: center;
@@ -288,6 +314,7 @@
 .ps-admin{
     margin: auto;
     margin-top: 3%;
+    margin-bottom: 2%;
     width: 80%;
     border: 2px solid black;
 
@@ -318,20 +345,103 @@
 }
 
 .img-col{
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 5%;
+    width: 2%;
 }
+
+.img-col-admin{
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 5%;
+}
+
 
 .img-col-acc{
   margin-top: 1%;
-  width: 10%;
+  width: 15%;
 }
 
 .img-table{
-  width: 50%;
+  width: 100%;
 }
 
+.img-ekip{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 10%;
+}
+
+
+.tableau-gen{
+  display: flex;
+  flex-direction: column;
+}
+
+.requete-admin{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+.accordion {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.panel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  max-width: 80%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: "\&blacktriangledown;";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+
+
+
+.twitter-timeline{
+  margin: auto;
+  width: 60%;
+  height: 100%;
+}
 
 .loader {
     margin: auto;
@@ -387,6 +497,13 @@
     text-align: center;
 }
 
+.sous-titre-in{
+  margin-top: 2%;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
 .txt{
     margin: auto;
     text-align: center;
@@ -399,6 +516,7 @@
 .ps-admin{
     margin: auto;
     margin-top: 3%;
+    margin-bottom: 2%;
     width: 80%;
     border: 2px solid black;
 
@@ -432,10 +550,14 @@
     justify-content: space-around;
 }
 
-.img-col{
+.img-col-admin{
   padding-left: 1%;
   padding-right: 1%;
-  width: 5%;
+  width: 10%;
+}
+
+.img-col{
+  width: 4%;
 }
 
 .img-table{
@@ -452,34 +574,149 @@
     animation: spin 2s linear infinite;
   }
 
-  table {
-    overflow-x:auto;
-    border-collapse: collapse;
-    border-spacing: 0;
+  .img-ekip{
+    margin: auto;
     width: 10%;
-    border: 1px solid black;
+  }
+
+  .tableau-gen{
+    display: flex;
+    flex-direction: column;
   }
   
-  th, td {
+  .requete-admin{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .accordion {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
     text-align: left;
-    padding: 2px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
   }
   
-
+  .active, .accordion:hover {
+    background-color: #ccc;
   }
   
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
+  .panel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .accordion:after {
+    content: "\&blacktriangledown;";
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+  
+  
+  
+  
+  .twitter-timeline{
+    margin: auto;
+    width: 40%;
+    height: 100%;
+  }
 
-  table {
-    overflow-x:auto;
+  table{
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    border-spacing: 0;
     width: 30%;
-    border: 1px solid black;
   }
   
-  th, td {
-    text-align: left;
+  table td, table th {
+    border: 1px solid #ddd;
     padding: 4px;
   }
   
+   table tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+    color: red;
+  }
+  
+   table th {
+    padding: 6px;
+    text-align: left;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  }
+  
+
+  .table-bu{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  .table-stat{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+  }
+
+  .table-stat3{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+   table tr:nth-child(even){
+    background-color: white;
+  }
+
+  table tr:hover {
+    background-color: #ddd;
+    color: red;
+  }
+  
+   table th {
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
 

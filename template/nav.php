@@ -9,7 +9,7 @@
 <body>
   <div class="sidebar">
     <div class="logo-details">
-    <img src="img/logo-nav.png" alt="" class=img-nav>
+    <img src="../img/logo-nav.png" alt="" class=img-nav>
         <i class='bx bx-menu' id="btn" ></i>
     </div>
     <ul class="nav-list">
@@ -20,20 +20,20 @@
         </a>
       </li>
       <li>
-       <a href="algo.php">
+       <a href="../algo.php">
          <i class='bx bx-pie-chart-alt-2' ></i>
          <span class="links_name">Algorithme de <br>prédiction</span>
        </a>
    
      </li>
      <li>
-       <a href="ps.php">
+       <a href="../ps.php">
        <i class='bx bx-money' style='color:#ffffff' ></i>
          <span class="links_name">Paris Sportif</span>
        </a>
      </li>
      <li>
-       <a href="contact.php ">
+       <a href="../contact.php ">
        <i class='bx bxs-contact' style='color:#ffffff' ></i>
          <span class="links_name">Contact</span>
        </a>

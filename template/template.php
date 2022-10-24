@@ -15,7 +15,7 @@ require_once("head.php");
 
    
 <script src="js/script.js"></script>
-<script src="../js/navbar.js"></script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>
