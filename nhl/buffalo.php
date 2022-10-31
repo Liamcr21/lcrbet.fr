@@ -41,6 +41,7 @@
 <a href="../nhl/vegas.php"><img src="../img/nhl/vegas-golden-knights-logo.png" alt="" class=img-col-admin></a>
 <a href="../nhl/washington.php"><img src="../img/nhl/washington-capitals-logo.png" alt="" class=img-col-admin></a>
 <a href="../nhl/winnipeg.php"><img src="../img/nhl/winnipeg-jets-logo.png" alt="" class=img-col-admin></a>
+<a href="../nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-col-admin></a>
 </div>   
   
 </div>
@@ -59,7 +60,7 @@
 <table class="table-stat">
 <h2 class=sous-titre-in>Statistiques Général</h2>
     <tr>
-    <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
+    <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>Matchs joués</strong></th>
         <th><strong>Victoire</strong></th>
         <th><strong>Défaite</strong></th>
@@ -106,7 +107,7 @@ try {
 <table class="table-stat">
 <h2 class=sous-titre-in>Statistiques buts</h2>
     <tr>
-        <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
+        <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>Moyenne buts marqué</strong></th>
         <th><strong>Moyenne buts concédés</strong></th>
         <th><strong>tirs par matchs</strong></th>
@@ -147,7 +148,7 @@ try {
 <table class="table-stat3">
 <h2 class=sous-titre-in>Statistiques par Tiers-temps</h2>
     <tr>
-        <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
+        <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>1ère MT but marqué</strong></th>
         <th><strong>1ère MT but concédé</strong></th>
         <th><strong>1ère MT V </strong></th>
@@ -205,7 +206,7 @@ try {
 <table class="table-bu">
 <h2 class=sous-titre-in>Classement Buteurs</h2>
     <tr>
-        <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
+        <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>Joueur</strong></th>
         <th><strong>Nombre de Buts</strong></th>
     </tr>

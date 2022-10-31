@@ -41,6 +41,7 @@
 <a href="../nhl/vegas.php"><img src="../img/nhl/vegas-golden-knights-logo.png" alt="" class=img-col-admin></a>
 <a href="../nhl/washington.php"><img src="../img/nhl/washington-capitals-logo.png" alt="" class=img-col-admin></a>
 <a href="../nhl/winnipeg.php"><img src="../img/nhl/winnipeg-jets-logo.png" alt="" class=img-col-admin></a>
+<a href="../nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-col-admin></a>
 </div>   
   
 </div>
@@ -52,16 +53,14 @@
 <img src="../img/nhl/vegas-golden-knights-logo.png" alt="logo" class="img-ekip" >
 
 
-
+<h2 class=sous-titre-algo>Statistiques</h2>
 <div class="requete-admin">
 <div class="tableau-gen">
 <div class="resultat">
-<h2 class=sous-titre>Statistiques</h2>
+<table class="table-stat">
 <h2 class=sous-titre-in>Statistiques Général</h2>
-<table>
     <tr>
-    <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
-        <th ><strong>Equipe</strong></th>
+    <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>Matchs joués</strong></th>
         <th><strong>Victoire</strong></th>
         <th><strong>Défaite</strong></th>
@@ -85,8 +84,7 @@ try {
         $vtr = $row['VTR'];
         $vot = $row['VOT'];
         echo "<tr> 
-        <td scope='row'>$logo</td>
-        <td >$equipe</td>
+        <td scope='row'>$logo $equipe</td>
         <td>$nbmatch</td>
         <td>$v</td>
         <td>$d</td>
@@ -104,11 +102,12 @@ try {
 </table>
 </div>
 <div class="buts">
-<h2 class=sous-titre-in>Statistiques buts</h2>
 
-<table>
+
+<table class="table-stat">
+<h2 class=sous-titre-in>Statistiques buts</h2>
     <tr>
-        <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
+        <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>Moyenne buts marqué</strong></th>
         <th><strong>Moyenne buts concédés</strong></th>
         <th><strong>tirs par matchs</strong></th>
@@ -122,12 +121,13 @@ try {
     foreach($dbh->query(' SELECT * FROM `nhl_stats` WHERE ID IN (30); `') as $row) {
         $row = array_map("utf8_encode", $row);
         $logo = $row['logo'];
+        $equipe = $row['EQUIPES'];
         $mbutm = $row['M_but_m'];
         $mbutc = $row['M_but_c'];
         $tirs = $row['tirs'];
         $tirsc = $row['tirs_c'];
         echo "<tr> 
-        <td scope='row'>$logo</td>
+        <td scope='row'>$logo $equipe</td>
         <td>$mbutm</td>
         <td>$mbutc</td>
         <td>$tirs</td>
@@ -143,11 +143,12 @@ try {
 </table>
 </div>
 <div class="mt">
-<h2 class=sous-titre-in>Statistiques par Tiers-temps</h2>
 
-<table>
+
+<table class="table-stat3">
+<h2 class=sous-titre-in>Statistiques par Tiers-temps</h2>
     <tr>
-        <th scope="row"><a href="nhl.php"><img src="../img/nhl/logo-nhl.png" alt="" class=img-table></a></th>
+        <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>1ère MT but marqué</strong></th>
         <th><strong>1ère MT but concédé</strong></th>
         <th><strong>1ère MT V </strong></th>
@@ -166,6 +167,7 @@ try {
     foreach($dbh->query(' SELECT * FROM `nhl_stats` WHERE ID IN (30); `') as $row) {
         $row = array_map("utf8_encode", $row);
         $logo = $row['logo'];
+        $equipe = $row['EQUIPES'];
         $unmtb = $row['1_mt_b'];
         $unmtc = $row['1_mt_c'];
         $unmtv = $row['1_mt_v'];
@@ -176,7 +178,7 @@ try {
         $troismtc = $row['3_mt_c'];
         $troismtv = $row['3_mt_v'];
         echo "<tr> 
-        <td scope='row'>$logo</td>
+        <td scope='row'>$logo $equipe</td>
         <td>$unmtb</td>
         <td>$unmtc</td>
         <td>$unmtv</td>
@@ -199,13 +201,14 @@ try {
 </div>
 
 <div class="but-gen">
-<h2 class=sous-titre-in>Classement Buteurs</h2>
 
-<table>
+
+<table class="table-bu">
+<h2 class=sous-titre-in>Classement Buteurs</h2>
     <tr>
-        <th scope="row"><strong>Equipe</strong></th>
+        <th scope="row"><a href="../nhl.php"><img src="../img/nhl/nhl-logo.jpg" alt="" class=img-table></a></th>
         <th><strong>Joueur</strong></th>
-        <th><strong>But</strong></th>
+        <th><strong>Nombre de Buts</strong></th>
     </tr>
 
 <?php
@@ -216,11 +219,11 @@ try {
     foreach($dbh->query(' SELECT LOGO,PLAYER,GOAL FROM `buteur_nhl` WHERE ID IN (1) ORDER BY GOAL DESC LIMIT 10; `') as $row) {
         $row = array_map("utf8_encode", $row);
 
-        $equipe = $row['LOGO'];
+        $logo = $row['LOGO'];
         $joueur = $row['PLAYER'];
         $but = $row['GOAL'];
         echo "<tr> 
-        <td scope='row'>$equipe</td>
+        <td scope='row'>$logo</td>
         <td>$joueur</td>
         <td>$but</td>
         </tr>";
